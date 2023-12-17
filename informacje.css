@@ -1,0 +1,102 @@
+body, #title, #Otwarcie, #Informacje {
+  background-color: rgb(245,245,245);
+  font-family: 'Comfortaa';
+}
+
+#titlediv {
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 58px;
+  box-shadow: 1px 0px 5px 0px rgb(200,200,200);
+}
+
+#title {
+  position: relative;
+  left: 20px;
+  font-size: 23px;
+  display: inline-block;
+  user-select: none;
+  top: 50%;
+  color: #000;
+  background-color: transparent;
+  border: none;
+  transform: translateY(-50%);
+  translate: color 0.15s;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#title:hover {
+  color: rgb(75,75,75);
+}
+
+#Otwarcie {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  color: #000;
+  transform: translateY(-50%);
+  padding: 3px;
+  left: 150px;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  user-select: none;
+  transition: color 0.15s;
+  cursor: pointer;
+}
+
+#Otwarcie:hover {
+  color: rgb(75,75,75);
+}
+
+#Informacje {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  color: #000;
+  transform: translateY(-50%);
+  padding: 3px;
+  left: 280px;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  user-select: none;
+  transition: color 0.15s;
+  cursor: pointer;
+}
+
+#Informacje:hover {
+  color: rgb(75,75,75);
+}
+
+#discount {
+  position: fixed;
+  bottom: 5px;
+  color: #000;
+  background-color: rgb(255, 36, 0);
+  padding: 5px;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  text-align: center;
+  font-size: 15px;
+  border: none;
+}
+
+#hr1 {
+  position: fixed;
+  top: 70px;
+  width: 99%;
+  color: #000;
+}
+
+#hr2 {
+  position: fixed;
+  bottom: 42px;
+  width: 99%;
+  color: #000;
+}
